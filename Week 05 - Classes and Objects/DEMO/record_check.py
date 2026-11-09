@@ -76,7 +76,7 @@ class RecordChecker:
         print(f"  Status      : {status:>10}")
         print("=" * 34)
         print()
-
+    
     def run(self):
         """Load, check and report on every record, then print a summary."""
         self.load()
